@@ -4,3 +4,6 @@ spring:
     url: jdbc:mariadb://${DB}
     username: ${ID}
     password: ${PW}
+
+  jwt:
+    secret: ${S_KEY}
